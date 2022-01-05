@@ -6,6 +6,7 @@ Work / Test on Windows 10 PC
 
 # Pre requisite :
 * install the register key with the file qsd.reg ( double clic )
+* set powershell policy Set-ExecutionPolicy bypass
 * copy the directory in D:\POWERSHELL
 
 # Directory
