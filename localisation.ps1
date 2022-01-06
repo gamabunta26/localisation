@@ -1,8 +1,9 @@
 ﻿cls
 Import-Module -Name D:\powershell\Image
 
+$img = "$args"
 
-$a = Get-Exif -image $args | select GPS
+$a = Get-Exif -image $img | select GPS
 if ($a.GPS)
 {
     Write-Host $a.GPS
