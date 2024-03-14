@@ -7,8 +7,14 @@ Work / Test on Windows 10 PC
 # Pre requisite :
 * install the register key with the file qsd.reg ( double clic )
 * set powershell policy Set-ExecutionPolicy bypass
+	Get-ExecutionPolicy -List
+	Set-ExecutionPolicy Bypass -Scope MachinePolicy
+	Set-ExecutionPolicy Bypass -Scope UserPolicy
+	Set-ExecutionPolicy Bypass -Scope Process
+	Set-ExecutionPolicy Bypass -Scope CurrentUser	
 * copy the directory in D:\POWERSHELL
 
+   
 # Directory
 
 Example of tree :

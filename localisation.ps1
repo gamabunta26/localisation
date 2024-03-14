@@ -1,5 +1,8 @@
-﻿cls
-Import-Module -Name D:\powershell\Image
+﻿# set-executionpolicy unrestricted
+# C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -WindowStyle Hidden D:\Workspace\Github\localisation\localisation.ps1 -param1 "%1"
+
+cls
+Import-Module -Name D:\Workspace\powershell\Image
 
 $img = "$args"
 
@@ -25,3 +28,6 @@ if ($a.GPS)
     }
 
 }
+
+
+pause

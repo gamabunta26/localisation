@@ -1,7 +1,12 @@
 ﻿Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\*\shell\localisation]
+[HKEY_CLASSES_ROOT\*\shell\Custom]
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\*\shell\Custom\shell]
+
+[HKEY_CLASSES_ROOT\*\shell\Custom\shell\Localisation]
 @="Localisation"
 
-[HKEY_CLASSES_ROOT\*\shell\localisation\command]
-@="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -WindowStyle Hidden d:\\powershell\\localisation.ps1 -param1 \"%1\""
+[HKEY_CLASSES_ROOT\*\shell\Custom\shell\Localisation\command]
+@="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -WindowStyle Hidden C:\\powershell\\localisation.ps1 \"%1\""
